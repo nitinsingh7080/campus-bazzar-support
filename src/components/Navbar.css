@@ -1,0 +1,136 @@
+.nav-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  padding: 24px;
+  display: flex;
+  justify-content: center;
+  transition: var(--transition);
+}
+
+.nav-container.scrolled {
+  padding: 16px 24px;
+}
+
+.pill-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: var(--nav-bg);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid var(--glass-border);
+  border-radius: var(--radius-pill);
+  padding: 8px 12px;
+  width: 100%;
+  max-width: 900px;
+  box-shadow: var(--shadow-sm);
+  transition: var(--transition);
+}
+
+.nav-container.scrolled .pill-nav {
+  box-shadow: var(--shadow-md);
+}
+
+.nav-logo {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 4px 12px;
+}
+
+.logo-image {
+  width: 36px;
+  height: 36px;
+  object-fit: contain;
+}
+
+.logo-text {
+  font-weight: 700;
+  font-size: 1.125rem;
+  color: var(--text-primary);
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.nav-link {
+  padding: 10px 20px;
+  border-radius: var(--radius-pill);
+  font-weight: 500;
+  color: var(--text-primary);
+  transition: var(--transition);
+}
+
+.nav-link:hover {
+  background: rgba(0,0,0,0.05);
+}
+
+.cta-link {
+  background: var(--text-primary);
+  color: var(--text-inverse);
+}
+
+.cta-link:hover {
+  background: var(--primary);
+  color: white;
+}
+
+.mobile-menu-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--text-primary);
+}
+
+.mobile-only {
+  display: none;
+}
+
+.mobile-menu {
+  position: absolute;
+  top: 80px;
+  left: 24px;
+  right: 24px;
+  border-radius: var(--radius-md);
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  box-shadow: var(--shadow-md);
+}
+
+.mobile-link {
+  padding: 16px;
+  border-radius: var(--radius-sm);
+  font-weight: 600;
+  color: var(--text-primary);
+}
+
+.mobile-link:hover {
+  background: rgba(0,0,0,0.05);
+}
+
+.cta-link-mobile {
+  background: var(--primary);
+  color: white;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .desktop-only {
+    display: none;
+  }
+  .mobile-only {
+    display: flex;
+  }
+}
