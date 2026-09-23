@@ -7,7 +7,7 @@ const HowItWorks = () => {
     {
       icon: <UserPlus size={32} />,
       title: 'Sign Up & Verify',
-      desc: 'Create an account using your university .edu email to join the exclusive campus network.'
+      desc: 'Create an account using your university email (e.g. john.admissionno@galgotias.edu) to join the exclusive campus network.'
     },
     {
       icon: <Search size={32} />,

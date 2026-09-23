@@ -32,7 +32,7 @@ const Support = () => {
             <div style={{ display: 'flex', flexDirection: 'column', gap: '32px' }}>
               <div>
                 <h4>How do I become a verified student?</h4>
-                <p style={{ marginTop: '8px' }}>You must sign up using your university .edu email address. We'll send a verification link to confirm your student status.</p>
+                <p style={{ marginTop: '8px' }}>You must sign up using your university email address (e.g. john.admissionno@galgotias.edu). We'll send a verification link to confirm your student status.</p>
               </div>
               <div>
                 <h4>Is it safe to buy and sell on Campus Bazzar?</h4>

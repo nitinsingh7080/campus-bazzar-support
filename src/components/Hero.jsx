@@ -15,12 +15,12 @@ const Hero = () => {
             <span className="gradient-text">Campus Marketplace</span>
           </h1>
           <p className="hero-subtitle">
-            Buy, sell, and connect exclusively with verified students on your campus. Discover textbooks, gadgets, and more—safely and instantly.
+            Buy, sell, and connect exclusively with verified students on your campus. Discover textbooks, gadgets, and more-safely and instantly.
           </p>
           
           <div className="hero-actions">
-            <a href="#download" className="btn-primary">
-              Download for iOS
+            <a href="#download" className="appstore-badge" style={{ display: 'inline-block' }}>
+              <img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="Download on the App Store" style={{ height: '48px' }} />
             </a>
             <a href="#features" className="btn-secondary">
               Explore Features

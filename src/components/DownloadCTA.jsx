@@ -11,12 +11,8 @@ const DownloadCTA = () => {
             <h2>Join Your Campus Marketplace Today</h2>
             <p>Join thousands of verified students who trust Campus Bazzar for safe, easy, and fast trading.</p>
             
-            <a href="https://testflight.apple.com" target="_blank" rel="noopener noreferrer" className="appstore-btn">
-              <Apple size={28} />
-              <div className="appstore-text">
-                <small>Download on</small>
-                <span>TestFlight</span>
-              </div>
+            <a href="#" className="appstore-badge" style={{ display: 'inline-block' }}>
+              <img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="Download on the App Store" style={{ height: '64px' }} />
             </a>
           </div>
         </div>

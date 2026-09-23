@@ -19,19 +19,13 @@ const AboutUs = () => {
       <div className="container">
         <div className="section-header">
           <span className="section-kicker">About Us</span>
-          <h2>Meet Team 11</h2>
+          <h2>The Team Behind Campus Bazzar</h2>
           <p className="section-subtitle">
             We are the passionate creators behind Campus Bazzar, dedicated to building the ultimate marketplace exclusively for students.
           </p>
         </div>
 
         <div className="about-content">
-          <div className="mentor-highlight glass">
-            <h3>Under the Guidance Of</h3>
-            <p className="mentor-name">Mrs. Shruti Sachdeva Ma'am</p>
-            <p className="mentor-title">Project Mentor</p>
-          </div>
-
           <div className="team-grid">
             {team.map((member, index) => (
               <div className="team-card animate-fade-up" key={index} style={{ animationDelay: `${index * 0.15}s` }}>
